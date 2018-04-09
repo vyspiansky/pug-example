@@ -12,4 +12,4 @@ Then
 
 ```$ gulp watch```
 
-and try to chage Pug files in the `src` folder. HTML files are (or will be) in the `build` folder.
+and try to change Pug files in the `src` folder. HTML files are (or will be) in the `build` folder.
