@@ -1,0 +1,13 @@
+extends templates/layout.pug
+
+block append config
+    - var pageTitle = 'About Us'
+
+block head
+    link(href='assets/styles/about.css', rel='stylesheet')
+
+block content
+    p About us information can be here...
+
+block menu
+    +menu('About')

@@ -1,0 +1,26 @@
+{
+  "name": "pug-example",
+  "version": "1.0.0",
+  "description": "Getting started with Pug template engine",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/vyspiansky/pug-example.git"
+  },
+  "keywords": [
+    "pug",
+    "template",
+    "engine"
+  ],
+  "author": "Ihor Vyspiansky",
+  "bugs": {
+    "url": "https://github.com/vyspiansky/pug-example/issues"
+  },
+  "homepage": "https://github.com/vyspiansky/pug-example#readme",
+  "dependencies": {
+    "pug": "^2.0.3"
+  }
+}

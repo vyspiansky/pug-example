@@ -1,0 +1,15 @@
+extends templates/layout.pug
+
+block append config
+    - var pageTitle = 'Home page'
+
+block head
+    link(href='assets/styles/index.css', rel='stylesheet')
+    script(type='text/javascript').
+        var text = 'Hey, it\'s "home page"';
+        console.log(text);
+block content
+    p Some useful text can be here...
+
+block menu
+    +menu('Home')

@@ -1,0 +1,25 @@
+include ../mixins/menu
+
+block config
+    - var lang = 'en'
+    - var pageTitleSuffix = 'Using Pug template engine'
+    - var description = 'Playing with Pug template engine'
+    - var pageTitle = 'Default title'
+
+doctype html
+html(lang=lang)
+    head
+        meta(charset='utf-8')
+        title #{pageTitle} | #{pageTitleSuffix}
+        link(href='assets/styles/common.css', rel='stylesheet')
+        script(src='assets/app.js')
+        block head
+    body
+        header
+            h1 #{pageTitle}
+            div #{description}
+            hr
+        section
+            block content
+        footer
+            block menu

@@ -1,0 +1,7 @@
+include ./menu_item
+
+mixin menu(activeTitle)
+    nav.main-menu
+        ul
+            +menu_item('index.html', 'Home', activeTitle)
+            +menu_item('about.html', 'About', activeTitle)
